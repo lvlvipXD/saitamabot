@@ -29,18 +29,13 @@ if (args[0]) {
 
 let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
-
-🎀 My prefix is: *${prefix}*
-
-Here's the list of my Commands.\n
              
 ╭────ꕥ Core ꕥ────╮
 ├
 ├・🎐 ʜɪ, ʜᴇʟᴘ, 
 ├・🎐 ᴄᴏᴜᴘʟᴇᴘᴘ, ᴏᴡɴᴇʀ, 
-├・🎐 ꜱᴄʀɪᴘᴛ, ꜱᴛᴀʟᴋ, 
-├・🎐 ꜱᴜᴘᴘᴏʀᴛ, ʀᴀɴᴋ
+├・🎐 ꜱᴛᴀʟᴋ, 
+├・🎐ʀᴀɴᴋ
 ├
 ╰──────────────────╯
 ╭────ꕥ Group ꕥ────╮
@@ -51,8 +46,8 @@ Here's the list of my Commands.\n
 ├・🏮 ᴅᴇʟᴇᴛᴇ, ᴘʀᴏᴍᴏᴛᴇ, 
 ├・🏮 ᴅᴇᴍᴏᴛᴇ, ɢᴄʟɪɴᴋ, 
 ├・🏮 ɢʀᴏᴜᴘ, ɢʀᴏᴜᴘɪɴꜰᴏ, 
-├・🏮 ʜɪᴅᴇᴛᴀɢ, ʟᴇᴀᴠᴇ, 
-├・🏮 ɴꜱꜰᴡ, ʀᴇᴍᴏᴠᴇ, 
+├・🏮 ʜɪᴅᴇᴛᴀɢ, ʟᴇᴀᴠᴇ 
+├・🏮  ʀᴇᴍᴏᴠᴇ, 
 ├・🏮 ʀᴇᴘᴏʀᴛ, ʀᴇᴠᴏᴋᴇ, 
 ├・🏮 ꜱᴇᴛɢᴄᴅᴇꜱᴄ, ꜱᴇᴛᴘᴘɢᴄ, 
 ├・🏮 ᴛᴀɢᴀʟʟ, ᴡᴇʟᴄᴏᴍᴇ
@@ -122,10 +117,10 @@ Here's the list of my Commands.\n
 ╰──────────────────╯
 ╭────ꕥ Weeb ꕥ────╮
 ├
-├・ 🧧 ᴀɴɪᴍᴇQᴜᴏᴛᴇ, ᴄᴏꜱᴘʟᴀʏ, 
-├・ 🧧 ᴄᴏꜱᴘʟᴀʏᴠɪᴅᴇᴏ, ꜰᴏxɢɪʀʟ, 
-├・ 🧧 ᴍᴀɪᴅ, ᴡᴀʟʟᴘᴀᴘᴇʀ, 
-├・ 🧧 ᴡᴀɪꜰᴜ
+├・ 🧧 ᴀɴɪᴍᴇQᴜᴏᴛᴇ,  
+├・ 🧧 ᴄᴏꜱᴘʟᴀʏᴠɪᴅᴇᴏ, 
+├・ 🧧 ᴍᴀɪᴅ, ᴡᴀʟʟᴘᴀᴘᴇʀ 
+├・ 🧧 ᴡᴀʟʟᴘᴀᴘᴇʀ 
 ├
 ╰──────────────────╯
 ╭────ꕥ Reactions ꕥ────╮
@@ -136,7 +131,7 @@ Here's the list of my Commands.\n
 ├・ 🎋 ʜᴀɴᴅʜᴏɴᴅ, ʜᴀᴘᴘʏ, 
 ├・ 🎋 ʜɪɢʜꜰɪᴠᴇ, ʜᴜɢ, 
 ├・ 🎋 ᴋɪᴄᴋ, ᴋɪʟʟ, 
-├・ 🎋 ᴋɪꜱꜱ, ᴘᴀᴛ, 
+├・ 🎋 ᴘᴀᴛ, 
 ├・ 🎋 ꜱʟᴀᴘ, ꜱᴍɪʟᴇ, 
 ├・ 🎋 ᴡᴀᴠᴇ, ᴡɪɴᴋ, 
 ├・ 🎋 ʏᴇᴇᴛ
@@ -244,16 +239,12 @@ textHelpMenu += `╭────ꕥ NSFW ꕥ────╮
 }
           
 textHelpMenu +=`*🔰  ${botName}  🔰*
- _Powered By:_ *Team ATLAS*
-🎀 To use any of these commands type 
-" *${prefix}Command name* ".
-🏮 To get Support Group link type " *${prefix}support* ".
-🧩 To report any issues to Developer type " *${prefix}report <describe issue>* ".\n`
+ _Powered By:_ *AKASHI*`
 
 let buttons = [
     {
-      buttonId: `${prefix}repo`,
-      buttonText: { displayText: "Source Code" },
+      buttonId: `${prefix}rank`,
+      buttonText: { displayText: "ur rank" },
       type: 1,
     },
   ];
